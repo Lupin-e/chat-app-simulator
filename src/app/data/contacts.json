@@ -1,0 +1,12 @@
+{"contacts": [
+  {"name": "Jason", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "time": "time", "chatId": "1"},
+  {"name": "George", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png", "time": "time", "chatId": "2"},
+  {"name": "Olivia", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/9_avatar-512.png", "time": "time", "chatId": "3"},
+  {"name": "Isabella", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-512.png", "time": "time", "chatId": "4"},
+  {"name": "Samantha", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/5_avatar-512.png", "time": "time", "chatId": "5"},
+  {"name": "Harrison", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png", "time": "time", "chatId": "6"},
+  {"name": "Ryan", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/1_avatar-512.png", "time": "time", "chatId": "7"},
+  {"name": "Boss", "value": "last message", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/12_avatar-512.png", "time": "time", "chatId": "8"}
+  ]
+}
+    

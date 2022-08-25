@@ -1,0 +1,142 @@
+.chat-header {
+  display: flex;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 10px;
+  background-color: #F5F5F5;
+  h3{
+    padding-top: 10px;
+    font-weight: 100;
+  }
+  .user-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.chat-message-received,
+.chat-message-sent
+{
+  width: auto;
+  display: flex;
+  padding: 10px;
+  background-color: #FAFAFA;
+  
+  p {
+    font-size: 12px;
+    font-weight: 100;
+    max-width: 400px;
+    word-break: break-all;
+  }
+  .decorator{
+    color: white;
+    background-color: #3D4154;
+    padding: 7px 10px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+
+  .date-decorator{
+    padding: 5px 10px;
+    font-size: 10px;
+    color: grey;
+  }
+  .contact-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.chat-message-sent{
+  flex-direction: row-reverse;
+  .message{
+    p.decorator{
+      background-color:rgb(219, 219, 219);
+      color:black;
+      margin-left: 100px;
+
+    }
+    .date-decorator{
+      text-align: right;
+      margin-left: auto;
+    }
+  }
+    
+}
+
+.chat-input-section{
+  display: flex;
+  width: auto;
+  padding: 20px 20px;
+  border-top: 1px solid #DDDDDD;
+  background-color: #F5F5F5;
+  position: relative;
+
+  .input-container{
+    display: flex;
+    width: 100%;
+    font-size: 0.75rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    align-items: center;
+
+    input.type-message {
+      width: 90%;
+      margin-right: 10px;
+      border: none;
+      padding: 10px 0;
+      margin-left: 20px;
+    
+    }
+    input.type-message:active,
+    input.type-message:focus {
+      outline: none;
+    }
+
+    button.send-btn{
+      background-image: url('https://cdn-icons-png.flaticon.com/512/60/60525.png');
+      background-size: 20px 20px;
+      height: 20px;  
+      width: 20px;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+      &:disabled, &:focus, &:active{
+        background-color: #fff;
+      }
+     
+    }
+  }
+}
+
+.overflow {
+  height: 448px;
+  overflow-y: auto;
+  background-color: #FAFAFA;
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 2px;
+  }
+}
+
+.overflow:hover {
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: black;
+  }
+}
+
+

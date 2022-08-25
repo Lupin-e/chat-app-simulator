@@ -1,0 +1,70 @@
+.chats-container{
+  h2 {
+    color: #4EAAB9;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+  }
+  .chat-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  #DDDDDD;
+    cursor: pointer;
+    
+    .chat-info{
+      display: flex;
+
+      h3{
+        font-size: 16px;
+        font-weight: 200;
+      }
+      p{
+        font-size: 12px;
+        font-weight: 200;
+        color: grey;
+        max-width: 170px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .contact-photo{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+
+.overflow {
+  height: 420px;
+  min-height: 250px;
+  overflow-y: scroll;
+  
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 2px;
+  }
+}
+
+.overflow:hover {
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: black;
+  }
+}
+  

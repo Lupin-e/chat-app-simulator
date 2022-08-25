@@ -1,0 +1,79 @@
+{"chatsData": [
+  {
+    "chatId": "1",
+    "chats" : [
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:20 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:40 AM"},
+      {"value": "reply to contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "0", "time": "8/12/22, 10:40 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:40 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:40 AM"},
+      {"value": "reply to contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "0", "time": "8/12/22, 10:40 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:42 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:43 AM"},
+      {"value": "reply to contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "0", "time": "8/12/22, 10:44 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:45 AM"},
+      {"value": "message from contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "1", "time": "8/12/22, 10:47 AM"},
+      {"value": "reply to contact 1", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png", "id": "0", "time": "8/12/22, 10:55 AM"}
+    ]
+  },
+  {
+    "chatId": "2",
+    "chats" : [
+      {"value": "first message from contact 2", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png", "id": "2", "time": "8/12/22, 10:50 AM"},
+      {"value": "second message from contact 2", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png", "id": "0", "time": "8/12/22, 10:50 AM"},
+      {"value": "third message from contact 2", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png", "id": "2", "time": "8/12/22, 10:51 AM"},
+      {"value": "reply to contact 2", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png", "id": "2", "time": "8/12/22, 10:52 AM"}
+    ]
+  },
+  {
+    "chatId": "3",
+    "chats" : [
+      {"value": "first message from contact 3", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/9_avatar-512.png", "id": "3", "time": "8/12/22, 10:48 AM"},
+      {"value": "second message from contact 3", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/9_avatar-512.png", "id": "3", "time": "8/12/22, 10:48 AM"},
+      {"value": "third message from contact 3", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/9_avatar-512.png", "id": "0", "time": "8/12/22,10:49 AM"}
+    ]
+  },
+  {
+    "chatId": "4",
+    "chats" : [
+      {"value": "first message from contact 4", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-512.png", "id": "4", "time": "8/12/22, 10:47 AM"},
+      {"value": "second message from contact 4", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-512.png", "id": "4", "time": "8/12/22, 10:47 AM"},
+      {"value": "reply to contact 4", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-512.png", "id": "0", "time": "8/12/22, 10:48 AM"}
+    ]
+  },
+  {
+    "chatId": "5",
+    "chats" : [
+      {"value": "first message from contact 5", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/5_avatar-512.png", "id": "5", "time": "8/12/22, 10:44 AM"},
+      {"value": "second message from contact 5", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/5_avatar-512.png", "id": "5", "time": "8/12/22, 10:45 AM"},
+      {"value": "reply to contact 5", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/5_avatar-512.png", "id": "0", "time": "8/12/22, 10:46 AM"}
+    ]
+  }
+  ,
+  {
+    "chatId": "6",
+    "chats" : [
+      {"value": "message to contact 6", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png", "id": "0", "time": "8/12/22, 10:41 AM"},
+      {"value": "first message from contact 6", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png", "id": "6", "time": "8/12/22, 10:42 AM"},
+      {"value": "second message from contact 6", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png", "id": "6", "time": "8/12/22, 10:43 AM"}
+    ]
+  }
+  ,
+  {
+    "chatId": "7",
+    "chats" : [
+      {"value": "Hello, today we will have a meeting", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/1_avatar-512.png", "id": "7", "time": "8/12/22, 10:35 AM"},
+      {"value": "I will send you a link soon", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/1_avatar-512.png", "id": "7", "time": "8/12/22, 10:36 AM"},
+      {"value": "Sure, thank you", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/1_avatar-512.png", "id": "0", "time": "8/12/22, 10:40 AM"}
+    ]
+  }
+  ,
+  {
+    "chatId": "8",
+    "chats" : [
+      {"value": "Hello, today is your first working day", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/12_avatar-512.png", "id": "8", "time": "8/12/22, 10:28 AM"},
+      {"value": "Wishing you a good luck)", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/12_avatar-512.png", "id": "8", "time": "8/12/22, 10:28 AM"},
+      {"value": "Thank you!", "photo": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/12_avatar-512.png", "id": "0", "time": "8/12/22, 10:30 AM"}
+    ]
+  }
+]}

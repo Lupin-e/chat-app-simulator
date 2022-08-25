@@ -1,0 +1,59 @@
+<div class="chat-container">
+  
+  <div class="chat-header">
+    <img 
+      src={{img}} 
+      alt="user-photo" class="user-photo"
+    >
+    <div>
+      <h3>{{h3}}</h3>
+    </div>
+  </div>
+  
+  <div class="overflow" #scrollMe>
+
+    <div 
+      *ngFor="let m of this.messagesService.messages[+currentChatID-1].chats"
+      >
+      
+      <div *ngIf="m.id === currentChatID else sent" class="chat-message-received">
+        <img 
+        src={{m.photo}} 
+        alt="user-photo" class="contact-photo"
+        >
+        <div class="message">
+          <p class="decorator">{{m.value}}</p>
+          <p class="date-decorator">{{m.time | date: 'short' | uppercase}}</p>
+        </div>
+      </div>
+  
+      <ng-template #sent>
+        <div class="chat-message-sent">
+        <div class="message">
+          <p class="decorator">{{m.value}}</p>
+          <p class="date-decorator">{{m.time | date: 'short' | uppercase}}</p>
+        </div>
+        </div>
+      </ng-template>
+  
+    </div>
+  </div>
+    
+  
+  
+  <div class="chat-input-section">
+    <div class="input-container">
+      <input  
+      [(ngModel)] = "inputValue"
+      type="text" class="type-message"
+      placeholder="Type your message"
+    >
+    <button class="send-btn" (click)="sendMessage()" [disabled]="inputValue === ''"></button>
+    </div>
+  </div>
+
+</div>
+
+
+
+
