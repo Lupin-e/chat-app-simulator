@@ -1,4 +1,4 @@
-# ChatApp
+# ChatApp requirements : https://docs.google.com/document/d/1MF6lsQuGP8MpfXqoBAXiYXz2rFxb2jf8/edit?usp=sharing&ouid=103292563449584167586&rtpof=true&sd=true
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
