@@ -1,27 +1,9 @@
-# ChatApp requirements : https://docs.google.com/document/d/1MF6lsQuGP8MpfXqoBAXiYXz2rFxb2jf8/edit?usp=sharing&ouid=103292563449584167586&rtpof=true&sd=true
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This was a task for traineeship.
+Main requirements:
+ 1. When starting the application, the chat user should already have a static list of contacts, as well as a history of communication with some users.
+ 2. When selecting a contact from the contact list, the history of communication between users is automatically displayed. Every chat message should have 
+ the following attributes are the text of the message, time and date of sending.
+ 3. After selecting a contact, the user has the opportunity to write a message in the chat and after sending it he should receive an automatic response. To generate an automatic response, you need to use the Chuck Norris API https://api.chucknorris.io/
+ 4. Search among contacts. Functionally, the search should work in the same way as in any known messenger.
+ 5. Saving message history after reloading the page.
+ 6. Contacts with new messages should automatically move up.
